@@ -1,0 +1,27 @@
+# Python cache and compiled files
+__pycache__/          # Python'un oluşturduğu geçici derleme dosyaları
+*.py[cod]             # .pyc, .pyo, .pyd uzantılı geçici Python dosyaları
+*.pyo                 # optimize edilmiş Python bytecode dosyaları
+*.pyd                 # derlenmiş Python modülleri (Windows)
+*.so                  # derlenmiş paylaşımlı kütüphaneler (Linux/Mac)
+*.egg-info/           # paketleme bilgilerini içeren klasörler
+*.egg                 # Python paket arşiv dosyaları
+
+# Virtual environments
+.venv/                # sanal ortam klasörü (genellikle proje kökünde)
+venv/                 # alternatif sanal ortam klasörü
+env/                  # başka bir sanal ortam klasör ismi
+
+# IDE / Editor
+.idea/                # PyCharm ayarları ve proje dosyaları
+.vscode/              # VSCode ayar dosyaları
+
+# macOS
+.DS_Store             # Mac tarafından oluşturulan görünüm dosyası
+
+# Logs and temporary files
+*.log                 # uygulama çalışırken oluşan log (kayıt) dosyaları
+*.tmp                 # geçici (temporary) dosyalar
+
+
+
