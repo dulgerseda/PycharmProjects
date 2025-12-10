@@ -8,6 +8,7 @@ def intsum(a, b):
 
 import string_operations_solution as SO
 
+
 print(SO.__doc__)
 #OUT: Collection of methods to manipulate strings.
 

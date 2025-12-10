@@ -9,6 +9,8 @@ Create a second class MyDataSeries that inherits from DataSeries.
 This class overrides the function get_features and allows to set
 a range of dx_min and dx_max (boundaries included) for feature detection"""
 
+#%%
+
 class DataSeries:
     def __init__(self, data):
         self.data = data
@@ -28,6 +30,8 @@ print(data.get_features(5))   # burada dx = 5 → fonksiyona gönderiyoruz
 print(data.count_features(5))
 
 # en büyük fark, 1. indexte, 10-3 = 7 5 den büyük farkı yakladık
+
+#%%
 
 class MyDataSeries(DataSeries):
     def __init__(self, data, dx_min, dx_max):
